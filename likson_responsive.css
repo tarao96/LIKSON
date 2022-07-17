@@ -1,5 +1,160 @@
-@media(max-width: 670px) {
+@media(max-width: 480px) {
     .container {
-        width: 100%;
+        width: 100vw;
+    }
+
+    nav {
+        margin-left: 0;
+    }
+
+    .header-logo {
+        margin: 0;
+        font-size: 8px;
+    }
+
+    .nav-list {
+        margin: 0;
+    }
+
+    .nav-list > li {
+        font-size: 8px;
+    }
+
+    main > ul {
+        margin-left: 250px;
+    }
+
+    .container > .logo-img > img {
+        width: 80vw;
+        margin-right: 60px;
+    }
+
+    .service {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .service > .service-headeing {
+        width: 100vw;
+    }
+
+    .service > h1 {
+        font-size: 24px;
+        padding-right: 50px;
+    }
+
+    .servicebox {
+        width: 60vw;
+        height: 350px;
+        margin-right: 60px;
+    }
+
+    .servicebox-img > img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .servicebox > h2 {
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-weight: 100;
+        margin:0 auto;
+    }
+
+    .servicebox > p {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .team-contents > img {
+        width: 100vw;
+        height: 200px;
+    }
+
+    .team-contents > h2 {
+        top: 150px;
+        left: 80px;
+        font-size: 24px;
+    }
+
+    .company {
+        margin: 0;
+        text-align: center;
+    }
+
+    .company > h1 {
+        font-size: 24px;
+    }
+
+    .companybox {
+        flex-direction: column;
+    }
+
+    .companybox > img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .companybox > h2 {
+        font-size: 20px;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .companybox > p {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .companybox > .para::before {
+        display: none;
+    }
+
+    .recruit {
+        padding: 0;
+        text-align: center;
+    }
+
+    .recruit > h1 {
+        font-size: 24px;
+    }
+
+    .recruit-contents {
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .recruit-contents > p {
+        font-size: 20px;
+        text-align: left;
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    .form {
+        width: 80vw;
+    }
+
+    .form > input {
+        width: 80vw;
+    }
+
+    #text {
+        width: 80vw;
+    }
+
+    footer {
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .footerimg {
+        margin-right: 0;
+    }
+
+    .footerimg > a > img {
+        width: 30vw;
     }
 }
