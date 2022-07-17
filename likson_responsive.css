@@ -66,6 +66,10 @@
         text-align: left;
     }
 
+    .team-contents {
+        margin-bottom: 150px;
+    }
+
     .team-contents > img {
         width: 100vw;
         height: 200px;
@@ -77,6 +81,11 @@
         font-size: 24px;
     }
 
+    .team-contents a {
+        top: 250px;
+        left: 100px;
+    }
+
     .company {
         margin: 0;
         text-align: center;
@@ -84,6 +93,10 @@
 
     .company > h1 {
         font-size: 24px;
+    }
+
+    .company > a {
+        margin-left: 0;
     }
 
     .companybox {
@@ -119,6 +132,7 @@
 
     .recruit > h1 {
         font-size: 24px;
+        margin-top: 100px;
     }
 
     .recruit-contents {
