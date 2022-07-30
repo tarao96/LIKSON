@@ -44,23 +44,27 @@ li {
 
 nav {
     display: flex;
+    justify-content: space-between;
     font-size: 13px;
 }
 
 .nav-list {
     margin-top: 40px;
     margin-left: auto;
-    margin-right: 300px;
 }
 
 .header-logo {
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 30px;
 }
 
 .nav-list li {
     display: inline-block;
     margin-right: 20px;
+}
+
+.hamburger {
+    display: none;
 }
 
 /* メイン ========================================= */
