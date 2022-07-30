@@ -264,4 +264,51 @@
         width: 30vw;
         height: 30vw;
     }
+
+    /* 下層ページ */
+    .message {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .message-heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .message-contents {
+        flex-direction: column;
+    }
+
+    .message-para {
+        margin: 0;
+        padding: 0 30px;
+    }
+
+    .message-para > p {
+        font-size: 12px;
+    }
+
+    .message-bottom {
+        margin-left: 0;
+    }
+
+    .outline {
+        padding: 0;
+    }
+
+    .outline-heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .outlinebox {
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+    .outlinebox > p {
+        margin: 0;
+        font-size: 12px;
+    }
 }
