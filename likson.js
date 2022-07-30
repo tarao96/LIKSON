@@ -5,6 +5,14 @@ $(function() {
     $(".slideContsRotate").css({
         "transform": "rotateY(0deg)"
     });
+
+    // ハンバーガーメニュークリック時
+    const ham = $('#js-hamburger');
+    const nav = $('#js-nav');
+    ham.on('click', function() {
+      ham.toggleClass('active');
+      nav.toggleClass('active');
+    });
 //スクロールイベント
   $(window).on("scroll", function() {
   var scroll_top = $(window).scrollTop();
@@ -13,7 +21,7 @@ $(function() {
     var elem_pos = $(this).offset().top;
   　
     //どのタイミングでフェードインさせるか
-    if (scroll_top >= elem_pos - window_h + 100) {
+    if (scroll_top >= elem_pos - window_h + 10) {
       $(this).addClass("fadein");
     } else {
       $(this).removeClass("fadein");
@@ -23,7 +31,7 @@ $(function() {
     var elem_pos = $(this).offset().top;
   　
     //どのタイミングでフェードインさせるか
-    if (scroll_top >= elem_pos - window_h + 100) {
+    if (scroll_top >= elem_pos - window_h + 10) {
       $(this).addClass("fadein");
     } else {
       $(this).removeClass("fadein");
